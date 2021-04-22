@@ -1,0 +1,47 @@
+/************************TAG SELECTORS**********************/
+body{
+     background-color: #6927ff;
+    }
+
+    hr{
+     /* border-style: dotted none none; or we can use the below lines for more specific result*/
+     border-style: none;
+     border-top-style: dotted;
+     border-color: #e84545;
+     border-width: 10px;
+     width: 5%;
+    }
+h1{
+  text-shadow:2px 2px 3px black;
+  color: #6effbf;
+}
+h3{
+  text-shadow:2px 2px 3px black;
+  color: #6effbf;
+}
+a{
+  color: #29bb89;
+  font-weight: bold;
+}
+/**********************CLASS SELECTORS**********************/
+
+img:hover{
+  background-color:gold;
+}
+
+.tea {
+width: 150px;
+background-color: red;
+}
+.coffee {
+  width: 150px;
+  background-color: green;
+}
+.circle {
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+/************************ID SELECTORS***********************/
+#heading{
+  color: red;
+}
