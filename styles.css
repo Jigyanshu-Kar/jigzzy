@@ -76,6 +76,7 @@ hr{
 }
 .profilepic{
  border-radius: 100%;
+ height: 300px;
 }
 .skill-row{
  width: 50%;
